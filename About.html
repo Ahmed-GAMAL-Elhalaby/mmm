@@ -1,0 +1,109 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<!--divinectorweb.com-->
+<head>
+    <meta charset="UTF-8">
+    <title>About Page</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body id="abou">
+    <nav>
+        <a href="index.html" target="-blank">Home</a>
+        <a href="About.html" target="-blank">About</a>
+        <a href="medicine.html" target="-blank">Medicine</a>
+        <a href="news.html" target="-blank">News</a>
+        <a href="login.html"target="-blank">Login</a>
+    </nav>
+
+    <div class="carousel">
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="./img/WhatsApp Image 2022-11-30 at 5.43.37 PM.jpeg">
+                </div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                <h4>Ahmed Gamal</h4>
+                <h5>Engineer</h5>
+            </div>
+        </a>
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="./img/WhatsApp Image 2022-11-30 at 5.43.37 PM.jpeg">
+                </div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                <h4>Ahmed Gamal</h4>
+                <h5>Engineer</h5>
+            </div>
+        </a>
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="./img/WhatsApp Image 2022-11-30 at 5.43.37 PM.jpeg">
+                </div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                <h4>Ahmed Gamal</h4>
+                <h5>Engineer</h5>
+            </div>
+        </a>
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="./img/WhatsApp Image 2022-11-30 at 5.43.37 PM.jpeg">
+                </div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                <h4>Ahmed Gamal</h4>
+                <h5>Engineer</h5>
+            </div>
+        </a>
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="./img/WhatsApp Image 2022-11-30 at 5.43.37 PM.jpeg">
+                </div>
+                <p>"mostafa</p>
+                <h4>Ahmed Gamal</h4>
+                <h5>Engineer</h5>
+            </div>
+        </a>
+      
+   </div>
+
+    <form action="">
+        <div class="for">
+            <input type="text" placeholder="Your Name" id="mm">
+            <br><br>
+            <input type="text" placeholder="Your Poisition" id="mm">
+            <br><br>
+            <textarea name="Comment" id="tex" cols="30" rows="10" placeholder=" Your Comment "></textarea>
+<br><br>
+<button type="submit" id="bi"> Submit</button>
+<br> <br>
+<br>
+<br><br>
+        </div>
+    </form>
+    
+    
+    <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+			padding: 200
+	});
+	autoplay();
+	function autoplay() {
+		$('.carousel').carousel('next');
+		setTimeout(autoplay, 4500);
+	}
+  });
+</script>
+
+<script src="./nav.js"></script>
+</body>
+</html>
+
